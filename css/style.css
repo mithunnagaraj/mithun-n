@@ -1173,3 +1173,14 @@ ul.nav>li>a:hover {
 #section-career .feature-image {
   max-width: 90%;
 }
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+}
+.home-buttons img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+}
