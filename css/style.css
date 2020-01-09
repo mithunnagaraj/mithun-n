@@ -179,8 +179,8 @@ li {
 .section-title h3,
 .section-title h4 {
     color: #F4F4F4;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
     display: inline-block;
     margin-top: 0;
     padding: 8px 0;
@@ -404,6 +404,13 @@ ul.nav>li>a:hover {
     margin-top: -40px;
 }
 
+@media (max-width: 480px) {
+    .detail-service {
+        top: 25px;
+        right: 15px;
+    }
+}
+
 .baraja-container .single-feature:hover {
     -webkit-box-shadow: 0px 0px 10px rgba(110, 110, 110, 0.5);
     -moz-box-shadow: 0px 0px 10px rgba(110, 110, 110, 0.5);
@@ -415,9 +422,10 @@ ul.nav>li>a:hover {
 
 .features-control {
     margin: auto;
-    margin-top: 55px;
+    margin-top: 150px;
     width: 253px;
     z-index: 1020;
+    left: -15px;
 }
 
 .control-icon {
@@ -426,6 +434,14 @@ ul.nav>li>a:hover {
     padding: 5px 15px;
     font-size: 20px;
     height: 46px;
+    color: #3e3e3e !important;
+    border-color: #3e3e3e !important;
+    ;
+}
+
+.detail-service .fancy-button {
+    color: #3e3e3e !important;
+    border-color: #3e3e3e !important;
 }
 
 .feature-link a {
@@ -855,7 +871,8 @@ ul.nav>li>a:hover {
 }
 
 .pricing .section-title h3 {
-    color: #666;
+    color: #484747;
+    border-color: #323738;
 }
 
 .single-pricing {
@@ -888,6 +905,7 @@ ul.nav>li>a:hover {
     margin-bottom: 0;
     font-size: 16px;
     font-weight: bold;
+    color: #181c1d !important;
 }
 
 .single-pricing .price h3 {
@@ -924,7 +942,7 @@ ul.nav>li>a:hover {
 	padding-bottom: 9px;
 	padding-top: 9px;
 	border-bottom: 1px solid #EEE;*/
-    color: #464545;
+    color: #151515;
     font-family: serif;
     font-weight: bold;
 }
@@ -1164,23 +1182,34 @@ ul.nav>li>a:hover {
     flex-direction: column;
 }
 
-#skills th,td{  
+#skills th,
+td {
     padding: 5px;
 }
-#skills table, th, td{  
+
+#skills table,
+th,
+td {
     border: solid 1px;
 }
+
 #section-career .feature-image {
-  max-width: 90%;
+    max-width: 90%;
 }
 
 .home-buttons {
     display: flex;
     justify-content: center;
+    flex-flow: wrap;
 }
+
 .home-buttons img {
     width: 60px;
     height: 60px;
     margin: 10px;
     border-radius: 10px;
+}
+
+.skills-val {
+    font-weight: 600;
 }
