@@ -16,8 +16,8 @@ $(window).ready(function() {
 	$.vegas('slideshow', {
 	  backgrounds:[
 		{ src:'images/bg-slider/bg-8.jpg', fade:1000 },
-		{ src:'images/bg-slider/uiux2.png', fade:1000 },
-		{ src:'images/bg-slider/uiux1.png', fade:1000 }
+		{ src:'images/bg-slider/web1.jpg', fade:1000 },
+		{ src:'images/bg-slider/web2.jpg', fade:1000 }
 	  ]
 	})();
 });
